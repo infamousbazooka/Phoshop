@@ -1,0 +1,32 @@
+[
+	{
+		"name" : "Microsoft Lumia 640 XL",
+		"feature1" : "Windows Phone 8.1",
+		"feature2" : "13 MP Camera",
+		"feature3" : "Dual SIM (GSM + GSM)",
+		"feature4" : "5.7 inches display",
+		"image" : "1",
+		"size" : "4",
+		"price" : "13000"
+	},
+	{
+		"name" : "Microsoft Lumia 640 XL",
+		"feature1" : "Windows Phone 8.1",
+		"feature2" : "13 MP Camera",
+		"feature3" : "Dual SIM (GSM + GSM)",
+		"feature4" : "5.7 inches display",
+		"image" : "1",
+		"size" : "5.5",
+		"price" : "15000"
+	},
+	{
+		"name" : "Samsung Note 4",
+		"feature1" : "Windows Phone 8.1",
+		"feature2" : "13 MP Camera",
+		"feature3" : "Dual SIM (GSM + GSM)",
+		"feature4" : "5.7 inches display",
+		"image" : "2",
+		"size" : "5.5",
+		"price" : "15000"
+	}
+]
