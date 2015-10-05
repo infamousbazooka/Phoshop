@@ -1,18 +1,11 @@
-var MyApp = angular.module('MyApp', [
+var myApp = angular.module('myApp',[
 	'ngRoute',
-	'mainController'
+	'MainController'
 ]);
-MyApp.config(['$routeProvider',function($routeProvider) {
+myApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider
-	.when('/search',{
-		templateUrl: 'partials/search.html',
-		controller: 'SearchController'
-	})
-	.when('/details/:itemId',{
-		templateUrl: 'partials/details.html',
-		controller: 'DetailsController'
-	}).
-	otherwise({
-		redirectTo: '/search'
+	.when('/home',{
+		templateUrl: 'partials/home/',
+		controller: 'HomeController'
 	});
 }]);
