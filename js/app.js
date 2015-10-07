@@ -8,4 +8,7 @@ myApp.config(['$routeProvider', function($routeProvider){
 		templateUrl: 'partials/home/',
 		controller: 'HomeController'
 	});
+	.otherwise({
+		redirectTo: '/home'
+	});
 }]);
